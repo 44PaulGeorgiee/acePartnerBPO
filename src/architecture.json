@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "documentRoot": ".",
+  "currentEntry": "index.html",
+  "decisions": {
+    "hosting": "Vercel",
+    "backendFramework": null,
+    "leadManagement": "Google Sheets",
+    "calendarProvider": "Google Calendar",
+    "displayTimezone": "Asia/Manila",
+    "bookingBehavior": null,
+    "bookingHorizon": null,
+    "leadConfirmation": ["onSite", "email"],
+    "requiredLeadFields": ["firstName", "lastName", "email", "message"],
+    "targetAudiences": [
+      "Healthcare service providers",
+      "General small and medium-sized businesses"
+    ],
+    "adminDashboardOwner": "Site owner (single user initially)",
+    "notDecided": [
+      "backend framework and persistence",
+      "whether time selection reserves a slot or submits a preference",
+      "booking horizon and operating hours",
+      "case study and testimonial publication approvals",
+      "legal jurisdictions and reviewer",
+      "pricing and package details",
+      "analytics provider and consent requirements",
+      "spam protection provider and limits",
+      "email provider and message content",
+      "phone validation countries and work-email policy",
+      "SMS provider, consent, and content",
+      "SEO markets, keywords, and canonical domain",
+      "A/B testing variants and success metric",
+      "dashboard authentication and access controls"
+    ]
+  },
+  "currentAssets": {
+    "styles": "styles.css",
+    "script": "script.js"
+  },
+  "routes": {
+    "home": "/",
+    "pricing": "/pages/pricing.html",
+    "howItWorks": "/pages/how-it-works.html",
+    "privacy": "/pages/privacy.html",
+    "terms": "/pages/terms.html",
+    "thankYou": "/pages/thank-you.html",
+    "admin": "/admin/"
+  },
+  "content": {
+    "caseStudies": "data/case-studies.json",
+    "testimonials": "data/testimonials.json",
+    "faqs": "data/faqs.json",
+    "pricing": "data/pricing.json",
+    "trustSignals": "data/trust-signals.json"
+  },
+  "assets": {
+    "brand": "assets/brand/",
+    "caseStudies": "assets/case-studies/",
+    "testimonials": "assets/testimonials/",
+    "trust": "assets/trust/",
+    "legal": "assets/legal/"
+  },
+  "apiContracts": {
+    "leads": "/api/leads",
+    "meetingPreferences": "/api/meeting-preferences",
+    "adminLeads": "/api/admin/leads"
+  },
+  "integrations": {
+    "crm": "server/integrations/crm/",
+    "calendar": "server/integrations/calendar/",
+    "email": "server/integrations/email/",
+    "sms": "server/integrations/sms/",
+    "analytics": "js/services/analytics.js",
+    "experiments": "js/services/experiments.js"
+  }
+}
