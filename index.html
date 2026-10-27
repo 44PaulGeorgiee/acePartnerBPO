@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Build a managed offshore pod with AcePartners BPO in Cebu. See your potential savings and explore a 30-day risk-free replacement guarantee.">
+  <title>AcePartners BPO — Your next great team is 14 days away</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#07111f",
+            panel: "#0d1a2a",
+            line: "#1d3043",
+            mint: "#55e6a5"
+          },
+          fontFamily: {
+            sans: ["DM Sans", "sans-serif"],
+            display: ["Manrope", "sans-serif"]
+          },
+          boxShadow: {
+            glow: "0 0 70px rgba(85, 230, 165, .11)"
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans antialiased">
+  <header class="sticky top-0 z-40 border-b border-white/[.07] bg-ink/90 backdrop-blur-xl">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4 lg:px-8" aria-label="Main navigation">
+      <a href="#home" class="focus-ring flex shrink-0 items-center gap-3 rounded-lg" aria-label="AcePartners BPO home">
+        <span class="grid h-10 w-10 place-items-center rounded-xl bg-emerald-400 text-lg font-extrabold text-slate-950">A<span class="text-emerald-800">.</span></span>
+        <span>
+          <span class="block font-display text-sm font-extrabold tracking-tight text-white sm:text-base">AcePartners <span class="text-emerald-400">BPO</span></span>
+          <span class="mt-0.5 hidden items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[.13em] text-slate-400 sm:flex"><span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>Cebu IT Park </span>
+        </span>
+      </a>
+      <button id="menuToggle" class="focus-ring rounded-lg border border-white/10 p-2 text-slate-200 md:hidden" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <div class="hidden items-center gap-7 md:flex">
+        <a class="focus-ring rounded text-sm text-slate-300 transition hover:text-white" href="#savings">Savings Calculator</a>
+        <a class="focus-ring rounded text-sm text-slate-300 transition hover:text-white" href="#pod-builder">Pod Configurator</a>
+        <a class="focus-ring rounded text-sm text-slate-300 transition hover:text-white" href="#advantage">Unfair Advantage</a>
+        <a class="focus-ring rounded text-sm text-slate-300 transition hover:text-white" href="#guarantee">Guarantee</a>
+      </div>
+      <button data-open-modal class="focus-ring hidden items-center gap-2 rounded-lg bg-emerald-400 px-4 py-2.5 text-sm font-bold text-slate-950 transition hover:bg-emerald-300 md:inline-flex">Book a strategy call <span aria-hidden="true">↗</span></button>
+    </nav>
+    <div id="mobileMenu" class="hidden border-t border-white/[.07] bg-ink px-5 py-4 md:hidden">
+      <div class="mx-auto grid max-w-7xl gap-1">
+        <a class="rounded-lg px-3 py-2.5 text-sm text-slate-300 hover:bg-white/5" href="#savings">Savings Calculator</a>
+        <a class="rounded-lg px-3 py-2.5 text-sm text-slate-300 hover:bg-white/5" href="#pod-builder">Pod Configurator</a>
+        <a class="rounded-lg px-3 py-2.5 text-sm text-slate-300 hover:bg-white/5" href="#advantage">Unfair Advantage</a>
+        <a class="rounded-lg px-3 py-2.5 text-sm text-slate-300 hover:bg-white/5" href="#guarantee">Guarantee</a>
+        <button data-open-modal class="mt-2 rounded-lg bg-emerald-400 px-4 py-3 text-left text-sm font-bold text-slate-950">Book a strategy call ↗</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="relative isolate overflow-hidden">
+      <div class="hero-grid absolute inset-0 -z-10"></div>
+      <div class="pointer-events-none absolute -right-52 top-0 -z-10 h-[520px] w-[520px] rounded-full bg-emerald-400/[.08] blur-[120px]"></div>
+      <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.08fr_.92fr] lg:px-8 lg:pb-28 lg:pt-28">
+        <div>
+          <div class="mb-7 inline-flex items-center gap-2 rounded-full border border-emerald-400/20 bg-emerald-400/[.07] px-3.5 py-2 text-[10px] font-bold uppercase tracking-[.16em] text-emerald-300 sm:text-xs">
+            <span class="h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400"></span>For E-Commerce &amp; B2B scaling companies
+          </div>
+          <h1 class="max-w-3xl font-display text-4xl font-extrabold leading-[1.08] tracking-[-.045em] text-gradient sm:text-5xl lg:text-[4.15rem]">
+            Your next great team is <span class="text-emerald-400">14 days away.</span>
+          </h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">Get a fully vetted, fully managed 3-person offshore pod for back-office and customer support—save up to 70% on your labor costs, without taking on another layer of HR.</p>
+          <div class="mt-7 flex flex-wrap items-center gap-3 text-sm text-slate-400">
+            <span class="rounded-full border border-white/10 bg-white/[.03] px-3 py-1.5">14-day target deployment</span>
+            <span class="rounded-full border border-white/10 bg-white/[.03] px-3 py-1.5">30-day risk-free replacement</span>
+            <span class="rounded-full border border-white/10 bg-white/[.03] px-3 py-1.5">Dedicated on-site supervisor</span>
+          </div>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a href="#savings" class="focus-ring inline-flex items-center justify-center gap-2 rounded-lg bg-emerald-400 px-6 py-3.5 font-bold text-slate-950 transition hover:-translate-y-0.5 hover:bg-emerald-300">Calculate your savings <span aria-hidden="true">↓</span></a>
+            <button data-open-modal class="focus-ring inline-flex items-center justify-center gap-2 rounded-lg border border-white/15 bg-white/[.03] px-6 py-3.5 font-semibold text-white transition hover:border-white/30 hover:bg-white/[.07]">Book 15-min strategy session <span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="mt-4 text-xs leading-5 text-slate-500">See the numbers first. No obligation, no placement fee just to talk.</p>
+        </div>
+
+        <div class="relative mx-auto w-full max-w-[500px]">
+          <div class="absolute -inset-5 rounded-[2rem] bg-emerald-400/[.06] blur-2xl"></div>
+          <div class="relative overflow-hidden rounded-2xl border border-white/10 bg-panel/90 p-5 shadow-glow sm:p-7">
+            <div class="flex items-start justify-between gap-3">
+              <div><p class="text-xs font-semibold uppercase tracking-[.15em] text-slate-400">The cost of one great hire</p><h2 class="mt-2 font-display text-xl font-bold text-white">Same seat. Smarter setup.</h2></div>
+              <span class="rounded-lg border border-emerald-400/20 bg-emerald-400/[.08] px-2.5 py-1.5 text-xs font-bold text-emerald-300">Illustrative</span>
+            </div>
+            <div class="mt-7 space-y-3">
+              <div class="flex items-center justify-between rounded-xl border border-white/[.07] bg-white/[.025] p-4">
+                <div><p class="text-sm font-semibold text-white">Onshore FTE</p><p class="mt-1 text-xs text-slate-400">Illustrative monthly cost</p></div><p class="font-display text-xl font-bold text-slate-200" id="heroOnshore">$6,500<span class="ml-1 text-xs font-medium text-slate-500">/mo</span></p>
+              </div>
+              <div class="flex items-center justify-between rounded-xl border border-emerald-400/25 bg-emerald-400/[.055] p-4">
+                <div><p class="text-sm font-semibold text-white">AcePartners managed FTE</p><p class="mt-1 text-xs text-slate-400">Illustrative monthly cost</p></div><p class="font-display text-xl font-bold text-emerald-300" id="heroOffshore">$1,800<span class="ml-1 text-xs font-medium text-emerald-100/50">/mo</span></p>
+              </div>
+            </div>
+            <div class="mt-5 flex items-center justify-between border-t border-white/[.08] pt-5">
+              <div><p class="text-xs text-slate-400">Potential annual delta per seat</p><p class="mt-1 text-[10px] text-slate-600">Before role, currency &amp; operating-cost adjustments</p></div>
+              <p class="font-display text-2xl font-extrabold text-emerald-300" id="heroDelta">$56,400</p>
+            </div>
+            <div class="mt-5 flex items-center gap-3 rounded-lg bg-white/[.035] p-3.5">
+              <div class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-emerald-400/10 text-emerald-300" aria-hidden="true">↗</div>
+              <p class="text-xs leading-5 text-slate-300">Includes day-to-day management. <span class="text-slate-500">Your actual savings depend on team mix and scope.</span></p>
+            </div>
+          </div>
+          <p class="mt-3 text-center text-[11px] leading-5 text-slate-500">Illustrative figures only; not a quote. Actual costs and savings vary.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-white/[.06] bg-[#0a1624]">
+      <div class="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-5 py-7 text-center sm:grid-cols-4 lg:px-8">
+        <div><p class="font-display text-2xl font-extrabold text-white">14 days</p><p class="mt-1 text-xs text-slate-400">Target deployment</p></div>
+        <div><p class="font-display text-2xl font-extrabold text-white">3 people</p><p class="mt-1 text-xs text-slate-400">Turnkey pod starting point</p></div>
+        <div><p class="font-display text-2xl font-extrabold text-white">$0 extra</p><p class="mt-1 text-xs text-slate-400">On-site supervisor included</p></div>
+        <div><p class="font-display text-2xl font-extrabold text-white">30 days</p><p class="mt-1 text-xs text-slate-400">Replacement guarantee window</p></div>
+      </div>
+    </section>
+
+    <section id="savings" class="scroll-mt-24 px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-xs font-bold uppercase tracking-[.18em] text-emerald-400">A clearer business case</p>
+          <h2 class="mt-3 font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl">What could your team save?</h2>
+          <p class="mt-4 leading-7 text-slate-400">Adjust the assumptions. Compare annual onshore salary with a planning estimate for managed offshore seats.</p>
+        </div>
+        <div class="mt-12 grid gap-6 lg:grid-cols-[.8fr_1.2fr]">
+          <div class="rounded-2xl border border-white/[.08] bg-panel p-6 sm:p-8">
+            <div class="flex items-center justify-between"><label for="currency" class="text-sm font-semibold text-white">Display currency</label>
+              <select id="currency" class="focus-ring rounded-lg border border-white/10 bg-[#101f30] px-3 py-2 text-sm text-white">
+                <option value="USD">USD — $</option><option value="AUD">AUD — A$</option><option value="GBP">GBP — £</option>
+              </select>
+            </div>
+            <div class="mt-8">
+              <div class="flex items-center justify-between gap-3"><label for="teamSize" class="text-sm font-semibold text-white">Team size</label><span class="rounded-lg bg-white/[.06] px-3 py-1.5 text-sm font-bold text-emerald-300"><output id="teamSizeValue" for="teamSize">3</output> FTEs</span></div>
+              <input id="teamSize" class="range mt-4 w-full cursor-pointer" type="range" min="1" max="25" step="1" value="3">
+              <div class="mt-1 flex justify-between text-xs text-slate-500"><span>1 seat</span><span>25 seats</span></div>
+            </div>
+            <div class="mt-8">
+              <div class="flex items-center justify-between gap-3"><label for="salary" class="text-sm font-semibold text-white">Average onshore salary / year</label><span class="rounded-lg bg-white/[.06] px-3 py-1.5 text-sm font-bold text-emerald-300" id="salaryValue">$65,000</span></div>
+              <input id="salary" class="range mt-4 w-full cursor-pointer" type="range" min="30000" max="120000" step="1000" value="65000">
+              <div class="mt-1 flex justify-between text-xs text-slate-500"><span id="salaryMin">$30,000</span><span id="salaryMax">$120,000</span></div>
+            </div>
+            <div class="mt-7 rounded-lg border border-white/[.07] bg-white/[.025] p-4">
+              <p class="text-xs font-semibold text-slate-300">Planning assumptions</p>
+              <p class="mt-2 text-xs leading-5 text-slate-500">Managed seat is estimated at the equivalent of $1,800/month. Currency conversion is indicative (USD $1 = A$1.52 = £0.79); it is not live FX or a commercial quote.</p>
+            </div>
+          </div>
+          <div class="rounded-2xl border border-emerald-400/20 bg-gradient-to-br from-emerald-400/[.09] to-panel p-6 sm:p-8">
+            <div class="flex items-start justify-between gap-4">
+              <div><p class="text-sm font-semibold text-emerald-200">Your estimated annual impact</p><p class="mt-1 text-xs text-slate-400">Based on the assumptions you selected</p></div>
+              <span class="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1.5 text-xs font-bold text-emerald-300" id="overheadPct">67% less</span>
+            </div>
+            <div class="mt-7 grid gap-3 sm:grid-cols-2">
+              <div class="rounded-xl border border-white/[.07] bg-ink/50 p-4"><p class="text-xs text-slate-400">Current onshore spend / yr</p><p id="onshoreSpend" class="mt-2 font-display text-2xl font-bold text-white">$195,000</p></div>
+              <div class="rounded-xl border border-white/[.07] bg-ink/50 p-4"><p class="text-xs text-slate-400">AcePartners estimate / yr</p><p id="offshoreSpend" class="mt-2 font-display text-2xl font-bold text-white">$64,800</p></div>
+            </div>
+            <div class="mt-4 rounded-xl border border-emerald-400/20 bg-emerald-400/[.09] p-5">
+              <p class="text-xs font-semibold uppercase tracking-[.12em] text-emerald-200">Potential net annual cash saved</p>
+              <p id="annualSavings" class="mt-1 font-display text-4xl font-extrabold tracking-tight text-emerald-300 sm:text-5xl">$130,200</p>
+              <p class="mt-2 text-xs leading-5 text-emerald-100/60">Illustrative gross salary comparison—not a guarantee. Final quote depends on role, scope, benefits and contract terms.</p>
+            </div>
+            <button id="lockSavings" class="focus-ring mt-5 flex w-full items-center justify-center gap-2 rounded-lg bg-emerald-400 px-5 py-3.5 font-bold text-slate-950 transition hover:bg-emerald-300">Lock in these savings <span aria-hidden="true">↗</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pod-builder" class="scroll-mt-24 border-y border-white/[.06] bg-[#0a1624] px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-xs font-bold uppercase tracking-[.18em] text-emerald-400">Build your starting team</p>
+          <h2 class="mt-3 font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl">A pod shaped around your bottleneck.</h2>
+          <p class="mt-4 leading-7 text-slate-400">Choose a function, then select the roles you'd like to discuss. Costs and deployment are planning estimates, not a quote or guaranteed start date.</p>
+        </div>
+        <div class="mt-10 flex flex-wrap justify-center gap-2" role="tablist" aria-label="Pod service category">
+          <button role="tab" id="tab-ecommerce" aria-controls="rolesPanel" aria-selected="true" data-category="ecommerce" class="category-tab focus-ring rounded-lg border border-emerald-400/30 bg-emerald-400/10 px-4 py-2.5 text-sm font-semibold text-emerald-300">E-Commerce &amp; Customer Success</button>
+          <button role="tab" id="tab-backoffice" aria-controls="rolesPanel" aria-selected="false" data-category="backoffice" class="category-tab focus-ring rounded-lg border border-white/10 px-4 py-2.5 text-sm font-semibold text-slate-400 transition hover:text-white">Back-Office &amp; Accounting</button>
+          <button role="tab" id="tab-creative" aria-controls="rolesPanel" aria-selected="false" data-category="creative" class="category-tab focus-ring rounded-lg border border-white/10 px-4 py-2.5 text-sm font-semibold text-slate-400 transition hover:text-white">Creative &amp; Visual Media</button>
+          <button role="tab" id="tab-data" aria-controls="rolesPanel" aria-selected="false" data-category="data" class="category-tab focus-ring rounded-lg border border-white/10 px-4 py-2.5 text-sm font-semibold text-slate-400 transition hover:text-white">Data Analytics &amp; Lead Gen</button>
+        </div>
+        <div class="mt-6 grid gap-6 lg:grid-cols-[1fr_.7fr]">
+          <div id="rolesPanel" role="tabpanel" aria-labelledby="tab-ecommerce" class="rounded-2xl border border-white/[.08] bg-panel p-5 sm:p-7">
+            <div class="flex flex-wrap items-end justify-between gap-3"><div><p class="text-xs font-semibold uppercase tracking-[.12em] text-slate-500">Choose your roles</p><h3 id="categoryTitle" class="mt-1 font-display text-xl font-bold text-white">E-Commerce &amp; Customer Success</h3></div><span class="text-xs text-slate-500">Select one or more</span></div>
+            <div id="roleList" class="mt-5 grid gap-3 sm:grid-cols-2"></div>
+            <div class="mt-6 border-t border-white/[.08] pt-5">
+              <p class="text-xs font-semibold uppercase tracking-[.12em] text-slate-500">Included with every managed pod</p>
+              <div class="mt-3 flex flex-wrap gap-2"><span class="rounded-full border border-white/[.08] bg-white/[.03] px-3 py-1.5 text-xs text-slate-300">Hardware setup</span><span class="rounded-full border border-white/[.08] bg-white/[.03] px-3 py-1.5 text-xs text-slate-300">Dedicated IP / VPN</span><span class="rounded-full border border-white/[.08] bg-white/[.03] px-3 py-1.5 text-xs text-slate-300">On-site shift manager</span><span class="rounded-full border border-white/[.08] bg-white/[.03] px-3 py-1.5 text-xs text-slate-300">30-day replacement</span></div>
+            </div>
+          </div>
+          <aside class="flex flex-col rounded-2xl border border-emerald-400/20 bg-gradient-to-br from-emerald-400/[.08] to-panel p-6 sm:p-7" aria-live="polite">
+            <p class="text-xs font-bold uppercase tracking-[.15em] text-emerald-300">Your planning estimate</p>
+            <p id="podRoleCount" class="mt-5 text-sm text-slate-400">3 selected roles</p>
+            <p id="podCost" class="mt-1 font-display text-4xl font-extrabold text-white">$5,400<span class="ml-2 text-sm font-medium text-slate-500">/ month</span></p>
+            <div class="mt-6 flex items-center justify-between border-t border-white/[.08] pt-5"><span class="text-sm text-slate-400">Estimated deployment window</span><span id="podTimeline" class="font-semibold text-emerald-300">14–21 days</span></div>
+            <p id="podNote" class="mt-2 text-xs leading-5 text-slate-500">Planning estimate for selected roles only. Scope, vetting and availability determine actual pricing and start date.</p>
+            <button data-open-modal class="focus-ring mt-auto rounded-lg bg-emerald-400 px-5 py-3 font-bold text-slate-950 transition hover:bg-emerald-300 sm:mt-8">Discuss this pod <span aria-hidden="true">↗</span></button>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="advantage" class="scroll-mt-24 px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto max-w-2xl text-center"><p class="text-xs font-bold uppercase tracking-[.18em] text-emerald-400">Less vendor juggling. More operating leverage.</p><h2 class="mt-3 font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl">Your team shouldn't create another job for you.</h2><p class="mt-4 leading-7 text-slate-400">Compare the ownership burden—not only the hourly rate.</p></div>
+        <div class="mt-12 overflow-x-auto rounded-2xl border border-white/[.08]">
+          <table class="w-full min-w-[700px] border-collapse text-left text-sm">
+            <thead><tr class="bg-panel"><th scope="col" class="w-[36%] p-5 text-xs font-semibold uppercase tracking-[.12em] text-slate-400">What your operation needs</th><th scope="col" class="p-5 font-display font-bold text-slate-300">Onshore in-house</th><th scope="col" class="p-5 font-display font-bold text-slate-300">Freelancers / Upwork</th><th scope="col" class="bg-emerald-400/[.07] p-5 font-display font-bold text-emerald-300">AcePartners managed pods</th></tr></thead>
+            <tbody class="divide-y divide-white/[.06]">
+              <tr><th scope="row" class="p-5 font-medium text-slate-200">Fully managed, on-site supervision</th><td class="p-5 text-slate-400">You manage day to day</td><td class="p-5 text-slate-400">You coordinate people</td><td class="bg-emerald-400/[.035] p-5 font-semibold text-emerald-200">Included</td></tr>
+              <tr><th scope="row" class="p-5 font-medium text-slate-200">Custom SOP creation &amp; integration</th><td class="p-5 text-slate-400">Build it in-house</td><td class="p-5 text-slate-400">Usually your responsibility</td><td class="bg-emerald-400/[.035] p-5 font-semibold text-emerald-200">Included in onboarding</td></tr>
+              <tr><th scope="row" class="p-5 font-medium text-slate-200">Hardware security &amp; encrypted VPNs</th><td class="p-5 text-slate-400">Source and secure equipment</td><td class="p-5 text-slate-400">Varies by contractor</td><td class="bg-emerald-400/[.035] p-5 font-semibold text-emerald-200">Managed setup</td></tr>
+              <tr><th scope="row" class="p-5 font-medium text-slate-200">30-day replacement guarantee</th><td class="p-5 text-slate-400">Re-hire on your time</td><td class="p-5 text-slate-400">Source and vet again</td><td class="bg-emerald-400/[.035] p-5 font-semibold text-emerald-200">Included; terms apply</td></tr>
+              <tr><th scope="row" class="p-5 font-medium text-slate-200">Illustrative monthly cost per seat</th><td class="p-5 text-slate-400">From $6,500/mo¹</td><td class="p-5 text-slate-400">Rate varies; management extra</td><td class="bg-emerald-400/[.035] p-5 font-semibold text-emerald-200">From $1,800/mo¹</td></tr>
+            </tbody>
+          </table>
+          <p class="border-t border-white/[.06] bg-panel px-5 py-3 text-xs leading-5 text-slate-500">¹ Illustrative USD comparison only—not a quote. Scope, role, location, employment costs and service terms affect actual pricing. Contractual terms govern guarantees.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="guarantee" class="scroll-mt-24 border-y border-white/[.06] bg-[#0a1624] px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:items-start">
+          <div><p class="text-xs font-bold uppercase tracking-[.18em] text-emerald-400">More than a headcount</p><h2 class="mt-3 font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl">One pod. A whole operating system.</h2><p class="mt-4 leading-7 text-slate-400">The people matter. The management, setup and repeatable workflows around them are what make the team useful.</p>
+            <div class="mt-8 rounded-2xl border border-emerald-400/25 bg-emerald-400/[.06] p-6"><div class="flex h-11 w-11 items-center justify-center rounded-xl bg-emerald-400/15 text-2xl text-emerald-300" aria-hidden="true">✓</div><h3 class="mt-4 font-display text-xl font-bold text-white">30-day risk-free replacement</h3><p class="mt-2 text-sm leading-6 text-slate-300">If a placed team member isn't the right fit in the first 30 days, we'll work with you on a replacement at no additional placement fee, subject to your service agreement. The initial deployment promise and payment terms are confirmed in a written proposal.</p></div>
+          </div>
+          <div class="space-y-3">
+            <div class="flex gap-4 rounded-xl border border-white/[.07] bg-panel p-5"><span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-white/[.05] text-sm font-bold text-emerald-300">01</span><div><h3 class="font-semibold text-white">Vetted talent matched to your workflow</h3><p class="mt-1 text-sm leading-6 text-slate-400">Role scoping, candidate screening and guided onboarding for the work you need done.</p></div><span class="ml-auto hidden shrink-0 text-xs font-semibold text-emerald-300 sm:block">Core delivery</span></div>
+            <div class="flex gap-4 rounded-xl border border-white/[.07] bg-panel p-5"><span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-white/[.05] text-sm font-bold text-emerald-300">02</span><div><h3 class="font-semibold text-white">Dedicated on-premise shift manager</h3><p class="mt-1 text-sm leading-6 text-slate-400">Day-to-day support and accountability built into the managed pod.</p></div><span class="ml-auto hidden shrink-0 text-right text-xs text-slate-400 sm:block"><span class="line-through">$1,500/mo</span><br><span class="font-semibold text-emerald-300">Included free</span></span></div>
+            <div class="flex gap-4 rounded-xl border border-white/[.07] bg-panel p-5"><span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-white/[.05] text-sm font-bold text-emerald-300">03</span><div><h3 class="font-semibold text-white">Custom SOP &amp; operations integration playbook</h3><p class="mt-1 text-sm leading-6 text-slate-400">Documented handoffs to help your new team operate inside your business.</p></div><span class="ml-auto hidden shrink-0 text-right text-xs text-slate-400 sm:block"><span class="line-through">$2,000 value</span><br><span class="font-semibold text-emerald-300">Included free</span></span></div>
+            <div class="flex gap-4 rounded-xl border border-white/[.07] bg-panel p-5"><span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-white/[.05] text-sm font-bold text-emerald-300">04</span><div><h3 class="font-semibold text-white">Enterprise hardware &amp; encrypted workstations</h3><p class="mt-1 text-sm leading-6 text-slate-400">Managed hardware setup and dedicated IP/VPN configuration for the role.</p></div><span class="ml-auto hidden shrink-0 text-right text-xs text-slate-400 sm:block"><span class="line-through">$1,000 value</span><br><span class="font-semibold text-emerald-300">Included free</span></span></div>
+            <div class="flex gap-4 rounded-xl border border-white/[.07] bg-panel p-5"><span class="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-white/[.05] text-sm font-bold text-emerald-300">05</span><div><h3 class="font-semibold text-white">30-day no-risk replacement guarantee</h3><p class="mt-1 text-sm leading-6 text-slate-400">A written replacement policy, with eligibility and details in your service agreement.</p></div><span class="ml-auto hidden shrink-0 text-xs font-semibold text-emerald-300 sm:block">Included</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto grid max-w-7xl gap-6 lg:grid-cols-[1.1fr_.9fr]">
+        <div class="rounded-2xl border border-white/[.08] bg-panel p-7 sm:p-9">
+          <p class="text-xs font-bold uppercase tracking-[.18em] text-emerald-400">On the ground in Cebu</p><h2 class="mt-3 font-display text-3xl font-extrabold text-white">A real team. A real office.</h2>
+          <div class="mt-7 flex gap-4"><div class="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-emerald-400/10 text-xl text-emerald-300" aria-hidden="true">⌖</div><div><p class="font-semibold text-white">AcePartners BPO</p><address class="mt-2 not-italic text-sm leading-6 text-slate-400">14th Floor, Meridian by AVENIR<br>Golam Drive, Mabolo<br>Cebu City, Philippines</address><p class="mt-2 text-xs text-slate-500">Adjacent to Cebu IT Park</p></div></div>
+          <p class="mt-7 border-t border-white/[.08] pt-5 text-xs leading-5 text-slate-500">Visit by appointment. Contact and verification details should be confirmed directly before your visit.</p>
+        </div>
+        <div class="rounded-2xl border border-white/[.08] bg-panel p-7 sm:p-9">
+          <p class="text-xs font-bold uppercase tracking-[.18em] text-emerald-400">Security starts with the process</p><h2 class="mt-3 font-display text-2xl font-extrabold text-white">Designed for accountable operations.</h2>
+          <div class="mt-6 space-y-3">
+            <div class="flex items-start gap-3 rounded-lg border border-white/[.07] bg-white/[.025] p-4"><span class="mt-0.5 text-emerald-300" aria-hidden="true">✓</span><div><p class="text-sm font-semibold text-white">Philippine Data Privacy Act</p><p class="mt-1 text-xs leading-5 text-slate-400">Privacy practices and applicable terms should be confirmed for your engagement.</p></div></div>
+            <div class="flex items-start gap-3 rounded-lg border border-white/[.07] bg-white/[.025] p-4"><span class="mt-0.5 text-emerald-300" aria-hidden="true">✓</span><div><p class="text-sm font-semibold text-white">ISO-aligned security practices</p><p class="mt-1 text-xs leading-5 text-slate-400">Alignment is not a certification claim. Request the current control and certification details.</p></div></div>
+            <div class="flex items-start gap-3 rounded-lg border border-white/[.07] bg-white/[.025] p-4"><span class="mt-0.5 text-emerald-300" aria-hidden="true">✓</span><div><p class="text-sm font-semibold text-white">NDA enforcement</p><p class="mt-1 text-xs leading-5 text-slate-400">Confidentiality requirements are documented in the applicable agreements.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-white/[.06] bg-[#0a1624] px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-4xl">
+        <div class="text-center"><p class="text-xs font-bold uppercase tracking-[.18em] text-emerald-400">Frequently asked questions</p><h2 class="mt-3 font-display text-3xl font-extrabold text-white sm:text-4xl">The practical questions, answered.</h2></div>
+        <div class="mt-10 space-y-3">
+          <details class="group rounded-xl border border-white/[.08] bg-panel p-5"><summary class="focus-ring flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-white"><span>How do you maintain quality and accountability?</span><span class="text-xl text-emerald-300 transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="mt-4 max-w-3xl text-sm leading-6 text-slate-400">We start by aligning on role outcomes, working instructions and communication expectations. Your pod includes an on-site shift manager, with progress and service expectations agreed during onboarding.</p></details>
+          <details class="group rounded-xl border border-white/[.08] bg-panel p-5"><summary class="focus-ring flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-white"><span>Can the team work with US, UK and Australian time zones?</span><span class="text-xl text-emerald-300 transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="mt-4 max-w-3xl text-sm leading-6 text-slate-400">Shift schedules depend on the roles and coverage you need. We scope an appropriate Cebu-based schedule with you before presenting a proposal; exact hours and any shift premiums are confirmed in writing.</p></details>
+          <details class="group rounded-xl border border-white/[.08] bg-panel p-5"><summary class="focus-ring flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-white"><span>How do you approach data security?</span><span class="text-xl text-emerald-300 transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="mt-4 max-w-3xl text-sm leading-6 text-slate-400">Hardware configuration, dedicated IP/VPN options, confidentiality commitments and access expectations are reviewed for each engagement. Ask for the applicable controls, privacy terms and security documentation before sharing sensitive data.</p></details>
+          <details class="group rounded-xl border border-white/[.08] bg-panel p-5"><summary class="focus-ring flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-white"><span>What does the 30-day replacement policy actually cover?</span><span class="text-xl text-emerald-300 transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="mt-4 max-w-3xl text-sm leading-6 text-slate-400">If a placed team member is not the right fit within the initial 30 days, we'll work with you on a replacement at no additional placement fee, subject to the service agreement. Request the written policy and eligibility terms before signing.</p></details>
+          <details class="group rounded-xl border border-white/[.08] bg-panel p-5"><summary class="focus-ring flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-white"><span>Is a team operational in 14 days guaranteed?</span><span class="text-xl text-emerald-300 transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="mt-4 max-w-3xl text-sm leading-6 text-slate-400">Fourteen days is the target deployment timeline for a scoped engagement, subject to role requirements, candidate availability, onboarding inputs and contract terms. Your written proposal confirms the timeline and any applicable payment guarantee.</p></details>
+          <details class="group rounded-xl border border-white/[.08] bg-panel p-5"><summary class="focus-ring flex cursor-pointer list-none items-center justify-between gap-4 font-semibold text-white"><span>How does the 30-day risk-free offer work?</span><span class="text-xl text-emerald-300 transition group-open:rotate-45" aria-hidden="true">+</span></summary><p class="mt-4 max-w-3xl text-sm leading-6 text-slate-400">The offer is subject to the final service agreement. Ask us to confirm the exact start date, payment terms, exclusions and remedy in writing before engagement.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-5xl overflow-hidden rounded-2xl border border-emerald-400/20 bg-gradient-to-br from-emerald-400/[.1] to-panel p-8 text-center sm:p-12">
+        <p class="text-xs font-bold uppercase tracking-[.18em] text-emerald-300">Build the team. Keep the focus.</p><h2 class="mx-auto mt-3 max-w-3xl font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl">Ready to get back to the work only you can do?</h2><p class="mx-auto mt-4 max-w-2xl leading-7 text-slate-300">Bring your bottleneck. Leave with a role plan, a realistic timeline and numbers worth evaluating.</p>
+        <button data-open-modal class="focus-ring mt-7 rounded-lg bg-emerald-400 px-6 py-3.5 font-bold text-slate-950 transition hover:bg-emerald-300">Book your 15-minute strategy session ↗</button>
+        <p class="mt-3 text-xs text-slate-500">No obligation. Final scope and pricing confirmed in writing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/[.08] bg-[#050c15] px-5 py-12 lg:px-8">
+    <div class="mx-auto grid max-w-7xl gap-10 sm:grid-cols-2 lg:grid-cols-[1.2fr_.8fr_1fr]">
+      <div><a href="#home" class="focus-ring inline-flex items-center gap-3 rounded-lg"><span class="grid h-9 w-9 place-items-center rounded-lg bg-emerald-400 font-extrabold text-slate-950">A.</span><span class="font-display font-extrabold text-white">AcePartners <span class="text-emerald-400">BPO</span></span></a><p class="mt-4 max-w-sm text-sm leading-6 text-slate-400">Managed offshore teams for growing E-Commerce and B2B businesses. Based in Cebu City, Philippines.</p><p class="mt-3 text-xs text-slate-500">Contact channels are provided during a strategy call. No unverified phone number or inbox is published here.</p></div>
+      <div><h2 class="text-sm font-bold text-white">Explore</h2><div class="mt-4 grid gap-3 text-sm text-slate-400"><a class="hover:text-emerald-300" href="#savings">Savings Calculator</a><a class="hover:text-emerald-300" href="#pod-builder">Pod Configurator</a><a class="hover:text-emerald-300" href="#advantage">Unfair Advantage</a><a class="hover:text-emerald-300" href="#guarantee">Guarantee</a><a class="hover:text-emerald-300" href="#location">Location &amp; Security</a></div></div>
+      <div><h2 class="text-sm font-bold text-white">Office</h2><address class="mt-4 not-italic text-sm leading-6 text-slate-400">14th Floor, Meridian by AVENIR<br>Golam Drive, Mabolo<br>Cebu City, Philippines<br><span class="text-xs text-slate-500">Adjacent to Cebu IT Park</span></address></div>
+    </div>
+    <div class="mx-auto mt-10 flex max-w-7xl flex-col gap-3 border-t border-white/[.07] pt-5 text-xs leading-5 text-slate-500 sm:flex-row sm:items-center sm:justify-between"><p>© <span id="year"></span> AcePartners BPO. All rights reserved.</p><p>Illustrations are estimates, not offers. Results vary. Commercial, privacy and guarantee terms are subject to written agreement.</p></div>
+  </footer>
+
+  <div id="bookingModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/80 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDescription">
+    <div class="modal-scroll relative max-h-[92vh] w-full max-w-xl overflow-y-auto rounded-2xl border border-white/10 bg-[#0c1928] shadow-2xl">
+      <div class="sticky top-0 z-10 border-b border-white/[.08] bg-[#0c1928]/95 px-6 py-5 backdrop-blur sm:px-8">
+        <div class="flex items-start justify-between gap-4"><div><p class="text-xs font-bold uppercase tracking-[.15em] text-emerald-400">Your next step</p><h2 id="modalTitle" class="mt-1 font-display text-xl font-extrabold text-white">Plan your offshore pod</h2><p id="modalDescription" class="mt-1 text-sm text-slate-400">A few details help us make the conversation useful.</p></div><button id="closeModal" class="focus-ring grid h-9 w-9 shrink-0 place-items-center rounded-lg border border-white/10 text-xl text-slate-400 hover:text-white" aria-label="Close dialog">×</button></div>
+        <div class="mt-5 flex items-center gap-2" aria-label="Form progress"><span class="step-dot h-1.5 flex-1 rounded-full bg-emerald-400" data-step-dot="1"></span><span class="step-dot h-1.5 flex-1 rounded-full bg-white/10" data-step-dot="2"></span><span class="step-dot h-1.5 flex-1 rounded-full bg-white/10" data-step-dot="3"></span></div>
+      </div>
+      <form id="leadForm" class="p-6 sm:p-8">
+        <section data-modal-step="1">
+          <h3 class="font-display text-lg font-bold text-white">What would you like to build?</h3>
+          <p class="mt-1 text-sm text-slate-400">Tell us a little about your team and timing.</p>
+          <label for="modalTeamSize" class="mt-6 block text-sm font-semibold text-slate-200">Team size you're exploring</label>
+          <select id="modalTeamSize" name="teamSize" required class="focus-ring mt-2 w-full rounded-lg border border-white/10 bg-[#101f30] px-4 py-3 text-sm text-white"><option value="">Select a team size</option><option>1 person</option><option>2–3 people</option><option>4–6 people</option><option>7–10 people</option><option>11–25 people</option><option>Still exploring</option></select>
+          <label for="modalTimeline" class="mt-5 block text-sm font-semibold text-slate-200">When would you like to start?</label>
+          <select id="modalTimeline" name="timeline" required class="focus-ring mt-2 w-full rounded-lg border border-white/10 bg-[#101f30] px-4 py-3 text-sm text-white"><option value="">Select a timeline</option><option>As soon as practical</option><option>Within 30 days</option><option>Within 60–90 days</option><option>Just researching</option></select>
+          <label for="modalNeeds" class="mt-5 block text-sm font-semibold text-slate-200">What work would you like your team to own? <span class="font-normal text-slate-500">(optional)</span></label>
+          <textarea id="modalNeeds" name="needs" rows="3" maxlength="1000" class="focus-ring mt-2 w-full resize-y rounded-lg border border-white/10 bg-[#101f30] px-4 py-3 text-sm text-white placeholder:text-slate-600" placeholder="Customer support, order operations, bookkeeping…"></textarea>
+          <p id="modalSavingsSummary" class="mt-4 hidden rounded-lg border border-emerald-400/15 bg-emerald-400/[.06] p-3 text-xs leading-5 text-emerald-200"></p>
+          <button type="button" data-next-step="2" class="focus-ring mt-6 w-full rounded-lg bg-emerald-400 px-5 py-3.5 font-bold text-slate-950 transition hover:bg-emerald-300">Continue to contact details <span aria-hidden="true">→</span></button>
+        </section>
+        <section data-modal-step="2" hidden>
+          <h3 class="font-display text-lg font-bold text-white">Who should we follow up with?</h3>
+          <p class="mt-1 text-sm text-slate-400">Your details help us prepare for a useful conversation.</p>
+          <label for="leadName" class="mt-6 block text-sm font-semibold text-slate-200">Full name</label><input id="leadName" name="name" autocomplete="name" required maxlength="100" class="focus-ring mt-2 w-full rounded-lg border border-white/10 bg-[#101f30] px-4 py-3 text-sm text-white placeholder:text-slate-600" placeholder="Jane Smith">
+          <label for="leadEmail" class="mt-5 block text-sm font-semibold text-slate-200">Work email</label><input id="leadEmail" name="email" type="email" autocomplete="email" required maxlength="254" class="focus-ring mt-2 w-full rounded-lg border border-white/10 bg-[#101f30] px-4 py-3 text-sm text-white placeholder:text-slate-600" placeholder="jane@company.com">
+          <label for="leadCompany" class="mt-5 block text-sm font-semibold text-slate-200">Company</label><input id="leadCompany" name="company" autocomplete="organization" required maxlength="160" class="focus-ring mt-2 w-full rounded-lg border border-white/10 bg-[#101f30] px-4 py-3 text-sm text-white placeholder:text-slate-600" placeholder="Company name">
+          <label for="leadPhone" class="mt-5 block text-sm font-semibold text-slate-200">Phone <span class="font-normal text-slate-500">(optional)</span></label><input id="leadPhone" name="phone" type="tel" autocomplete="tel" maxlength="40" class="focus-ring mt-2 w-full rounded-lg border border-white/10 bg-[#101f30] px-4 py-3 text-sm text-white placeholder:text-slate-600" placeholder="+1 555 010 1234">
+          <label class="mt-5 flex items-start gap-3 text-xs leading-5 text-slate-400"><input id="leadConsent" name="consent" type="checkbox" required class="mt-0.5 accent-emerald-400"><span>I agree to be contacted about this request. Do not enter sensitive personal or customer data. See the privacy notice below.</span></label>
+          <div id="formError" role="alert" class="mt-4 hidden rounded-lg border border-rose-400/20 bg-rose-400/[.07] p-3 text-sm text-rose-200"></div>
+          <div class="mt-6 grid grid-cols-[auto_1fr] gap-3"><button type="button" data-prev-step="1" class="focus-ring rounded-lg border border-white/10 px-4 py-3 font-semibold text-slate-300 hover:bg-white/5">Back</button><button id="submitLead" type="submit" class="focus-ring rounded-lg bg-emerald-400 px-4 py-3 font-bold text-slate-950 transition hover:bg-emerald-300">Request my strategy call <span aria-hidden="true">↗</span></button></div>
+          <p class="mt-3 text-center text-[11px] leading-5 text-slate-500">Configure a secure lead endpoint before publishing. Your details are not sent or stored by this standalone page until that endpoint is connected.</p>
+        </section>
+        <section data-modal-step="3" hidden>
+          <div class="grid h-12 w-12 place-items-center rounded-xl bg-emerald-400/10 text-2xl text-emerald-300" aria-hidden="true">✓</div>
+          <h3 class="mt-4 font-display text-xl font-bold text-white">Your request is ready</h3>
+          <p id="confirmationMessage" class="mt-2 text-sm leading-6 text-slate-400"></p>
+          <div class="mt-6 rounded-xl border border-white/[.08] bg-white/[.025] p-4"><div class="flex items-center justify-between"><p class="text-sm font-semibold text-white">Choose a preferred 15-minute slot</p><span class="text-[10px] text-slate-500">Cebu · PHT (UTC+8)</span></div><p class="mt-1 text-xs text-slate-500">Select a weekday, then a time. Preference only; your time is not reserved until confirmed.</p><div id="dateSlots" class="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3"></div><div id="timeSlots" class="mt-3 hidden grid-cols-2 gap-2 sm:grid-cols-3"></div><p id="slotStatus" class="mt-3 hidden text-xs leading-5 text-emerald-200" role="status"></p></div>
+          <p class="mt-4 rounded-lg border border-amber-300/15 bg-amber-300/[.04] p-3 text-xs leading-5 text-amber-100/70">A selected time is a preference, not a confirmed booking. We'll need a connected booking service or a team follow-up to confirm it.</p>
+          <button type="button" id="finishModal" class="focus-ring mt-6 w-full rounded-lg border border-white/10 px-5 py-3 font-semibold text-slate-200 transition hover:bg-white/[.05]">Done</button>
+        </section>
+      </form>
+    </div>
+  </div>
+  <div id="liveStatus" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="script.js"></script>
+  </body>
+</html>

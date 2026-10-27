@@ -1,0 +1,14 @@
+
+    :root { color-scheme: dark; scroll-behavior: smooth; }
+    body { background: #07111f; color: #e8f0f7; }
+    ::selection { background: rgba(85, 230, 165, .3); color: white; }
+    .hero-grid { background-image: linear-gradient(rgba(148, 163, 184, .045) 1px, transparent 1px), linear-gradient(90deg, rgba(148, 163, 184, .045) 1px, transparent 1px); background-size: 56px 56px; mask-image: linear-gradient(to bottom, black, transparent 90%); }
+    .text-gradient { background: linear-gradient(100deg, #f8fafc 10%, #a9f6d2 88%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .range { accent-color: #55e6a5; }
+    .focus-ring:focus-visible { outline: 2px solid #55e6a5; outline-offset: 3px; }
+    .modal-scroll { scrollbar-width: thin; scrollbar-color: #31465b transparent; }
+    [hidden] { display: none !important; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
+  
